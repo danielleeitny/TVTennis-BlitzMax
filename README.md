@@ -17,7 +17,7 @@ The angle at which the ball is deflected from a player's paddle increases the fu
 # Game Flow
 
 ## Menu Screen
-"TV Tennis" starts up to a screen showing the scoreboard at the top, the player paddles at the edges, the title screen, and a menu with three options: "1 FOR 1-PLAYER", "2 FOR TWO-PLAYER", and "ESC TO QUIT".  If the user presses either the '1' or '2' keys, a match will begin.  If the player hits 'ESC', the game will prompt, "QUIT TV TENNIS? (Y/N)".  If 'Y' is pressed, the program will exit immediately.  If 'N', the game will return to the Menu Screen.
+"TV Tennis" starts up to a screen showing the scoreboard at the top, the player paddles at the edges, the title banner, and a menu with three options: "1 FOR 1-PLAYER", "2 FOR TWO-PLAYER", and "ESC TO QUIT".  If the user presses either the '1' or '2' keys, a match will begin.  If the player hits 'ESC', the game will prompt, "QUIT TV TENNIS? (Y/N)".  If 'Y' is pressed, the program will exit immediately.  If 'N', the game will return to the Menu Screen.
 
 ## Volley
 Each volley begins with a "GET READY!" prompt.  The prompt disappears after three (3) seconds, the ball is served to the appropriate player, and play begins.  A volley ends when one of the players faults; allowing the ball to exit the screen.  The opposing player is gratend a point and, if neither player has scored ten (10) points, the match continues with a new volley.
