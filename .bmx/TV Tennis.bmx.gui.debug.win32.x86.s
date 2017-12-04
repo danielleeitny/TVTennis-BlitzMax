@@ -615,7 +615,7 @@ _362:
 	jne	_364
 	call	_brl_blitz_NullObjectError
 _364:
-	mov	dword [ebx+8],2
+	mov	dword [ebx+8],0
 	push	_366
 	call	dword [_bbOnDebugEnterStm]
 	add	esp,4
@@ -636,7 +636,7 @@ _370:
 	jne	_372
 	call	_brl_blitz_NullObjectError
 _372:
-	mov	dword [ebx+12],0
+	mov	dword [ebx+12],1
 	push	_374
 	call	dword [_bbOnDebugEnterStm]
 	add	esp,4
@@ -657,7 +657,7 @@ _378:
 	jne	_380
 	call	_brl_blitz_NullObjectError
 _380:
-	mov	dword [ebx+16],-1
+	mov	dword [ebx+16],87
 	push	_382
 	call	dword [_bbOnDebugEnterStm]
 	add	esp,4
@@ -678,7 +678,7 @@ _386:
 	jne	_388
 	call	_brl_blitz_NullObjectError
 _388:
-	mov	dword [ebx+20],1
+	mov	dword [ebx+20],83
 	push	_390
 	call	dword [_bbOnDebugEnterStm]
 	add	esp,4
@@ -699,7 +699,7 @@ _394:
 	jne	_396
 	call	_brl_blitz_NullObjectError
 _396:
-	mov	dword [ebx+24],1
+	mov	dword [ebx+24],68
 	push	_398
 	call	dword [_bbOnDebugEnterStm]
 	add	esp,4
@@ -4303,7 +4303,7 @@ _1188:
 	dd	0
 	align	4
 _265:
-	file	"D:/Documents/Workbench/TV Tennis/Source/data/sounds/beep.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/beep.wav"
 _266:
 	align	4
 _264:
@@ -4314,7 +4314,7 @@ _264:
 	dw	46,119,97,118
 	align	4
 _268:
-	file	"D:/Documents/Workbench/TV Tennis/Source/data/sounds/boop.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/boop.wav"
 _269:
 	align	4
 _267:
@@ -4325,7 +4325,7 @@ _267:
 	dw	46,119,97,118
 	align	4
 _271:
-	file	"D:/Documents/Workbench/TV Tennis/Source/data/sounds/bip.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/bip.wav"
 _272:
 	align	4
 _270:
@@ -4336,7 +4336,7 @@ _270:
 	dw	119,97,118
 	align	4
 _274:
-	file	"D:/Documents/Workbench/TV Tennis/Source/data/fonts/pannetje_10.ttf"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/fonts/pannetje_10.ttf"
 _275:
 	align	4
 _273:
@@ -4347,15 +4347,15 @@ _273:
 	dw	116,106,101,95,49,48,46,116,116,102
 	align	4
 _1116:
-	file	"D:/Documents/Workbench/TV Tennis/Source/data/fonts/pannetje_10.ttf"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/fonts/pannetje_10.ttf"
 _1117:
 	align	4
 _1118:
-	file	"D:/Documents/Workbench/TV Tennis/Source/data/sounds/beep.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/beep.wav"
 _1119:
 	align	4
 _1120:
-	file	"D:/Documents/Workbench/TV Tennis/Source/data/sounds/boop.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/boop.wav"
 _1121:
 _1123:
 	db	"TV Tennis",0
@@ -4769,7 +4769,7 @@ _1122:
 	dd	_bb_isScoringEvent
 	dd	0
 _226:
-	db	"D:/Documents/Workbench/TV Tennis/Source/TV Tennis.bmx",0
+	db	"D:/Repositories/TV Tennis/BlitzMax/TV Tennis.bmx",0
 	align	4
 _225:
 	dd	_226
@@ -5372,61 +5372,61 @@ _231:
 	dd	99
 	dd	1
 _234:
-	db	"D:/Documents/Workbench/TV Tennis/Source/main.bmx",0
+	db	"D:/Repositories/TV Tennis/BlitzMax/main.bmx",0
 	align	4
 _233:
 	dd	_234
-	dd	32
+	dd	31
 	dd	1
 	align	4
 _236:
 	dd	_234
-	dd	33
+	dd	32
 	dd	1
 	align	4
 _238:
 	dd	_234
-	dd	34
+	dd	33
 	dd	1
 	align	4
 _240:
 	dd	_234
-	dd	35
+	dd	34
 	dd	1
 	align	4
 _242:
 	dd	_234
-	dd	36
+	dd	35
 	dd	1
 	align	4
 _244:
 	dd	_234
-	dd	37
+	dd	36
 	dd	1
 	align	4
 _246:
 	dd	_234
-	dd	38
+	dd	37
 	dd	1
 	align	4
 _248:
 	dd	_234
-	dd	39
+	dd	38
 	dd	1
 	align	4
 _250:
 	dd	_234
-	dd	40
+	dd	39
 	dd	1
 	align	4
 _252:
 	dd	_234
-	dd	41
+	dd	40
 	dd	1
 	align	4
 _254:
 	dd	_234
-	dd	42
+	dd	41
 	dd	1
 	align	4
 _36:
@@ -5437,7 +5437,7 @@ _36:
 	align	4
 _256:
 	dd	_234
-	dd	43
+	dd	42
 	dd	1
 	align	4
 _37:
@@ -5448,22 +5448,22 @@ _37:
 	align	4
 _258:
 	dd	_234
-	dd	44
+	dd	43
 	dd	1
 	align	4
 _260:
 	dd	_234
-	dd	45
+	dd	44
 	dd	1
 	align	4
 _262:
 	dd	_234
-	dd	46
+	dd	45
 	dd	1
 	align	4
 _276:
 	dd	_234
-	dd	56
+	dd	55
 	dd	1
 	align	4
 _27:
@@ -5475,7 +5475,7 @@ _27:
 	align	4
 _278:
 	dd	_234
-	dd	57
+	dd	56
 	dd	1
 	align	4
 _28:
@@ -5487,7 +5487,7 @@ _28:
 	align	4
 _280:
 	dd	_234
-	dd	58
+	dd	57
 	dd	1
 	align	4
 _38:
@@ -5499,7 +5499,7 @@ _38:
 	align	4
 _282:
 	dd	_234
-	dd	59
+	dd	58
 	dd	1
 	align	4
 _25:
@@ -5512,12 +5512,12 @@ _25:
 	align	4
 _284:
 	dd	_234
-	dd	60
+	dd	59
 	dd	1
 	align	4
 _286:
 	dd	_234
-	dd	104
+	dd	103
 	dd	2
 	align	4
 _288:
@@ -5525,39 +5525,39 @@ _288:
 	align	4
 _290:
 	dd	_234
-	dd	105
+	dd	104
 	dd	3
 	align	4
 _294:
 	dd	_234
-	dd	106
+	dd	105
 	dd	3
 	align	4
 _298:
 	dd	_234
-	dd	107
+	dd	106
 	dd	3
 	align	4
 _302:
 	dd	_234
-	dd	110
+	dd	109
 	dd	2
 _303:
 	db	":playerClass",0
 	align	4
 _305:
 	dd	_234
-	dd	111
+	dd	110
 	dd	3
 	align	4
 _313:
 	dd	_234
-	dd	112
+	dd	111
 	dd	3
 	align	4
 _321:
 	dd	_234
-	dd	114
+	dd	113
 	dd	3
 _356:
 	db	"player",0
@@ -5575,57 +5575,57 @@ _355:
 	align	4
 _327:
 	dd	_234
-	dd	117
+	dd	116
 	dd	4
 	align	4
 _331:
 	dd	_234
-	dd	118
+	dd	117
 	dd	4
 	align	4
 _335:
 	dd	_234
-	dd	119
+	dd	118
 	dd	4
 	align	4
 _339:
 	dd	_234
-	dd	120
+	dd	119
 	dd	4
 	align	4
 _343:
 	dd	_234
-	dd	121
+	dd	120
 	dd	4
 	align	4
 _351:
 	dd	_234
-	dd	122
+	dd	121
 	dd	4
 	align	4
 _358:
 	dd	_234
-	dd	128
+	dd	127
 	dd	3
 	align	4
 _366:
 	dd	_234
-	dd	129
+	dd	128
 	dd	4
 	align	4
 _374:
 	dd	_234
-	dd	130
+	dd	129
 	dd	4
 	align	4
 _382:
 	dd	_234
-	dd	131
+	dd	130
 	dd	4
 	align	4
 _390:
 	dd	_234
-	dd	132
+	dd	131
 	dd	4
 	align	4
 _398:

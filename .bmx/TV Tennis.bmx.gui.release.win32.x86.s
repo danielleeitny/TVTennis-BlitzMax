@@ -366,23 +366,23 @@ _40:
 	mov	eax,dword [ebp-72]
 	mov	eax,dword [eax+24]
 	mov	eax,dword [eax+40]
-	mov	dword [eax+8],2
+	mov	dword [eax+8],0
 	mov	eax,dword [ebp-72]
 	mov	eax,dword [eax+24]
 	mov	eax,dword [eax+40]
-	mov	dword [eax+12],0
+	mov	dword [eax+12],1
 	mov	eax,dword [ebp-72]
 	mov	eax,dword [eax+24]
 	mov	eax,dword [eax+40]
-	mov	dword [eax+16],-1
+	mov	dword [eax+16],87
 	mov	eax,dword [ebp-72]
 	mov	eax,dword [eax+24]
 	mov	eax,dword [eax+40]
-	mov	dword [eax+20],1
+	mov	dword [eax+20],83
 	mov	eax,dword [ebp-72]
 	mov	eax,dword [eax+24]
 	mov	eax,dword [eax+40]
-	mov	dword [eax+24],1
+	mov	dword [eax+24],68
 	mov	eax,dword [ebp-72]
 	mov	eax,dword [eax+4+24]
 	mov	eax,dword [eax+40]
@@ -2069,7 +2069,7 @@ _405:
 	dd	0
 	align	4
 _242:
-	file	"M:/Workbench/TV Tennis/data/sounds/beep.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/beep.wav"
 _243:
 	align	4
 _241:
@@ -2080,7 +2080,7 @@ _241:
 	dw	46,119,97,118
 	align	4
 _245:
-	file	"M:/Workbench/TV Tennis/data/sounds/boop.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/boop.wav"
 _246:
 	align	4
 _244:
@@ -2091,7 +2091,7 @@ _244:
 	dw	46,119,97,118
 	align	4
 _248:
-	file	"M:/Workbench/TV Tennis/data/sounds/bip.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/bip.wav"
 _249:
 	align	4
 _247:
@@ -2102,7 +2102,7 @@ _247:
 	dw	119,97,118
 	align	4
 _251:
-	file	"M:/Workbench/TV Tennis/data/fonts/pannetje_10.ttf"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/fonts/pannetje_10.ttf"
 _252:
 	align	4
 _250:
@@ -2113,15 +2113,15 @@ _250:
 	dw	116,106,101,95,49,48,46,116,116,102
 	align	4
 _399:
-	file	"M:/Workbench/TV Tennis/data/fonts/pannetje_10.ttf"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/fonts/pannetje_10.ttf"
 _400:
 	align	4
 _401:
-	file	"M:/Workbench/TV Tennis/data/sounds/beep.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/beep.wav"
 _402:
 	align	4
 _403:
-	file	"M:/Workbench/TV Tennis/data/sounds/boop.wav"
+	file	"D:/Repositories/TV Tennis/BlitzMax/data/sounds/boop.wav"
 _404:
 	align	4
 __bb_z_10cf1e3c_a35a_45f3_b093_93c5c73f95da_3_0_data:

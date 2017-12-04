@@ -9,7 +9,6 @@ Const HIDTYPE_GAMEPAD:Int = 2
 
 Const JOY_DIRECTIONUP:Int = -1
 Const JOY_DIRECTIONDOWN:Int = 1
-
 Const JOY_BUTTON1:Int = 1
 
 Const GAMESTATE_INIT:Int = 0
@@ -125,11 +124,12 @@ End Type
 	
 
 		'Controllers
-		players[0].controller.hidType = HIDTYPE_GAMEPAD
-			players[0].controller.hidTypeInstance = 0
-			players[0].controller.moveUp = JOY_DIRECTIONUP
-			players[0].controller.moveDown = JOY_DIRECTIONDOWN
-			players[0].controller.fireAction = JOY_BUTTON1
+		players[0].controller.hidType = HIDTYPE_KEYBOARD
+			players[0].controller.hidTypeInstance = 1
+			players[0].controller.moveUp = KEY_W
+			players[0].controller.moveDown = KEY_S
+			players[0].controller.fireAction = KEY_D
+			
 		players[1].controller.hidType = HIDTYPE_KEYBOARD
 			players[1].controller.hidTypeInstance = 1
 			players[1].controller.moveUp = KEY_UP
