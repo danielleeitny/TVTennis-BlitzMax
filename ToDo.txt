@@ -1,0 +1,110 @@
+TODO:
+
+Version 1
++ basic pong rules implemented
++ 2-player keyboard control
++ collision sound
++ game to 10 points
+
+Version 2
++ Use RectOverlap for collisions
++ Score font is too big?
++ Score font to model original?
++ Use font for score and messages instead of brute force READ/DATA bit patterns
++ Iterate through players using FOR EACH instead of repeating code
++ Try white draw colow like original?
++ Variable boop and beep
++ "Get Ready!" prompt before launching in start and after score
++ Implement Pause
++ "Game Over" pauses and returns to Main Menu
++ Make board still visible on all GAMESTATES
++ BUG: Ball gets stuck along bottom
++ BUG: On new game and after every score, ball always comes to left
+
+
+Version 3
++ Set maximum velocityY to avoid ball bouncing too steeply between top and bottom
++ Add DEBUG block
++ Make ESCAPE more immediately responsive in all GAMESTATES
++ Clear keybd buffer before transition from GETREADY to PLAYING so that irrelevent SPACEBAR PAUSE gets dropped
++ player left Gamepad digital control
+
+
+Version 4
++ Switch source to "SuperStrict"
++ Upgrade to BlitzMax
++ Fix variable deflection and maximum Y velocity once and for all!
++ Change variable sound to low for wall collisions and high for player collisions
+
+
+Version 5
++ GAMETYPE: 1 player vs AI
++ Add simple AI Player
++ Add score sound?
+
+
+Version 6
+- re-engineer code to OO
+
+Version 7
+- bin include all assets; get game down to single exe
+- Clear all keyboard buffers on escape
+- Dotted center line (2:3)?
+- 2 Gamepad DIGITAL contorol
+
+
+Version 8
+- Menu with options:
+- OPTION: Keyboard/Gamepad/Mouse
+- OPTION: Player passthrough Y/N
+- OPTION: Ball Speed?
+- OPTION: Bat Length
+- Help Screen
+- Add debug console
+
+
+Version 9
+- OPTION: Select HID
+- Make all game factors configurable
+- AI Player variable diffculty
+- GAMETYPE: 1 player vs AI sides and tops/bottoms
+- GAMETYPE: 1 player "static back wall" mode, set wall distance
+- GAMETYPE: 1 player "approaching wall" mode
+- GAMETYPE: 1 player "hit this spot" mode
+
+
+Version 10
+- Add modifier "pills"
+- Score saving
+- Soccer mode
+- Big ball (large ball that players can't touch but is effected by the ball)
+- Obstructions
+- English
+
+
+Version 11
+- Net Play
+- Mouse control
+- Gamepad analog control (variable speed)
+- OPTION: program all controls
+- OPTION: save default confguration
+- OPTION: Save named configurations
+- Light trails
+- Hint lines
+- Stereo Boinks
+- accomplishments and trophies
+
+Version 12
+- 3 and 4 player mode (top and bottom walls)
+- Select Skin (classic, green screen, tron)
+- Select Music
+- Select Sounds
+- Construction set
+
+
+Version 13
+- mobile tilt play
+- mobile multi-play
+- android
+- iPhone
+
