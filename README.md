@@ -2,7 +2,7 @@
 A Pong clone
 
 # Abstract
-"TV Tennis" is a re-implementation of the game Pong.  The game can be played by one player against a CPU controller opponent, or two players head-to-head.
+"TV Tennis" is a re-implementation of the game Pong.  The game can be played by one player against a CPU controlled opponent, or two players head-to-head.
 
 # Gameplay
 A match starts with the ball being served to the left-side player.  The player keeps the ball in play by moving his paddle into its path and deflecting it back onto the court.  The right-side player does the same.  Play continues in this fashion until one of the players fails to intercept the ball and allows it to exit the screen on his side.  This scores the opponent one point.  If the game is not over, the ball is served to the scoring player and play resumes.  A match is played to ten (10) points.
